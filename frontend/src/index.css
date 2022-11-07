@@ -57,6 +57,12 @@ header a {
   color: #555;
 }
 
+/* .workout-container {
+  height: 1000px;
+  overflow-y: scroll;
+} */
+
+
 /* for the delete button  */
 .workout-details span {
   position: absolute;
@@ -98,4 +104,26 @@ div.error {
   color: var(--error);
   border-radius: 4px;
   margin: 20px 0;
+}
+
+input.error {
+  border: 1px solid var(--error);
+}
+
+.done {
+  margin-right: 40px;
+  border-radius: 10px !important;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+  background-color: #5d1acf !important;
+  color: white !important;
+}
+
+.done:hover {
+  background-color: #9659ff !important;
+}
+
+.material-symbols-outlined {
+  background-color: var(--error) !important;
+  color: white !important;
 }

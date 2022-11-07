@@ -4,10 +4,9 @@ const app = express ()
 require ('dotenv').config ()
 const workoutRoutes = require ('./routes/workout')
 
-
 //MIDDLEWARE
 //express json for the body
-app.use (express.json ())
+
 
 
 //logger
